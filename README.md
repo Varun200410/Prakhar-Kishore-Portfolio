@@ -37,10 +37,10 @@ This interactive portfolio showcases the work of Prakhar Kishore, a Computer Sci
 - - **Customer Churn Prediction:** Classification model to predict customer retention using data preprocessing, feature engineering, and models like Logistic Regression, Random Forest, and XGBoost. [Code](https://github.com/Varun200410/Customer-Churn-prediction)
     
 ## Experience
-- **Research Intern — NIT Silchar (Silchar, Assam):** Conducted AI/ML research under faculty guidance; worked on cutting‑edge machine learning projects.
-- **Software Intern — Hex Softwares Pvt Ltd (Nov 2025 – Dec 2025):** Built ML models (Iris Classification, House Price Prediction) and complete data preprocessing pipelines.
+- **Research Intern — NIT Silchar (Silchar, Assam) (Jan 2026 – Present):** Developing a brain tumor detection system using Vision Transformer (ViT-B/16) for MRI classification; implementing Explainable AI (XAI) with Grad-CAM for interpretable predictions; applying AdamW optimizer with warmup and cosine decay for efficient training.
+- **Machine Learning Intern — Hex Softwares Pvt Ltd (Nov 2025 – Dec 2025):** Built machine learning models and end-to-end data preprocessing pipelines for projects like Iris Classification and House Price Prediction.
 
-## Contact
+- ## Contact
 - **GitHub:** https://github.com/Varun200410
 - **LinkedIn:** https://www.linkedin.com/in/prakhar-kishore-130b30266
 - **Email:** prakharkishore8@gmail.com
