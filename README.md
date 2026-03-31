@@ -33,7 +33,7 @@ This interactive portfolio showcases the work of Prakhar Kishore, a Computer Sci
 - **Loan Status Prediction:** Eligibility classification and risk assessment. [Code](https://github.com/Varun200410/loan-_status-_prediction)
 - **Calories Burnt Prediction:** Regression for activity‑based calorie estimation. [Code](https://github.com/Varun200410/Calories-Burnt-Prediction)
 - **House Price Prediction:** Linear/Lasso/Ridge regression with feature engineering and metric optimization.
-
+- **NLP Sentiment Analysis & SMS/Email Classification:** Natural Language Processing project for sentiment analysis and spam detection using text preprocessing, TF-IDF/CountVectorizer, and machine learning models like Naive Bayes for accurate classification. [Code](https://github.com/Varun200410/nlp-sentiment-analysis-mail-sms-classification-)
 ## Experience
 - **Research Intern — NIT Silchar (Silchar, Assam):** Conducted AI/ML research under faculty guidance; worked on cutting‑edge machine learning projects.
 - **Software Intern — Hex Softwares Pvt Ltd (Nov 2025 – Dec 2025):** Built ML models (Iris Classification, House Price Prediction) and complete data preprocessing pipelines.
