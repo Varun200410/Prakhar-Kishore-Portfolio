@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prakhar Kishore Portfolio - Dark Tech Theme */
+
+@layer base {
+  :root {
+    /* Dark theme by default - sleek and professional */
+    --background: 220 20% 4%;
+    --foreground: 210 20% 95%;
+
+    --card: 220 20% 7%;
+    --card-foreground: 210 20% 95%;
+
+    --popover: 220 20% 7%;
+    --popover-foreground: 210 20% 95%;
+
+    --primary: 210 20% 95%;
+    --primary-foreground: 220 20% 4%;
+
+    --secondary: 220 15% 12%;
+    --secondary-foreground: 210 20% 90%;
+
+    --muted: 220 15% 15%;
+    --muted-foreground: 215 15% 55%;
+
+    /* Accent - Electric Cyan/Teal */
+    --accent: 175 85% 50%;
+    --accent-foreground: 220 20% 4%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 20% 98%;
+
+    --border: 220 15% 18%;
+    --input: 220 15% 18%;
+    --ring: 175 85% 50%;
+
+    --radius: 0.75rem;
+
+    /* Glow effects */
+    --glow-primary: 175 85% 50% / 0.15;
+    --glow-accent: 260 80% 60% / 0.1;
+
+    --sidebar-background: 220 20% 6%;
+    --sidebar-foreground: 210 20% 90%;
+    --sidebar-primary: 175 85% 50%;
+    --sidebar-primary-foreground: 220 20% 4%;
+    --sidebar-accent: 220 15% 12%;
+    --sidebar-accent-foreground: 210 20% 90%;
+    --sidebar-border: 220 15% 15%;
+    --sidebar-ring: 175 85% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--background));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted));
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--accent));
+  }
+}
+
+@layer utilities {
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* Glow backgrounds */
+  .bg-glow-primary {
+    background: radial-gradient(ellipse at center, hsl(var(--glow-primary)), transparent);
+  }
+
+  .bg-glow-accent {
+    background: radial-gradient(ellipse at center, hsl(var(--glow-accent)), transparent);
+  }
+
+  /* Slow pulse animation */
+  .animate-pulse-slow {
+    animation: pulse-slow 6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulse-slow {
+    0%, 100% {
+      opacity: 0.4;
+    }
+    50% {
+      opacity: 0.7;
+    }
+  }
+
+  /* Text gradient */
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(var(--accent)), hsl(260 80% 60%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
